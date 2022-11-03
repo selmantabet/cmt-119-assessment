@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <!-- Peep the favicon :) -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Computational Thinking</title>
+  </head>
+  <body>
+    <a class="button" href="index.html">
+      <h3 class="row" style="padding-top: 5%;">Return to homepage.</h2>
+    </a>
+    <h1 class="row">Computational Thinking</h1>
+    <p align="justify" class="article-p">
+      We face several different problems of various complexity on the day-to-day, and we tend to approach them in our own unique way, based on our experience and knowledge. We recognize patterns and build expectations that makes us all the wiser. Whether we know it or not, we do employ computational thinking one way or the other whenever we approach any sort of problem. It's a general mental ability to solve problems through methodologies explored and finessed by Computer Science and their scientists. Whether it is recognizing a running pattern, deconstructing a complex task into simpler ones, or trying to optimize a repetitive and costly process, all fall under the umbrella of what we call Computational Thinking.
+    </p>
+    <p align="justify" class="article-p">
+      You would often find software engineers review complex architectures on a whiteboard of some sort before proceeding with development. This is done to clarify processes and have them broken down into simpler steps, as is the common wisdom taught to computer science students in many universities. This deconstructive approach makes things easier to digest, almost like how food works throughout alimentary system. Not only does this approach make the logic seem clearer and easier to translate into code, but it can also potentially make it easier for engineers to communicate with peers and collaborators should the need arise.
+    </p>
+    <p align="justify" class="article-p">
+      I for one, have developed a complex integration gateway – a robust API - deployed for integrating Shopify into a delivery company’s fleet management system. The gateway allows for Shopify-based merchants to fulfill their orders via the delivery company’s own logistical services in an automated fashion.
+    </p>
+    <div class="modal-container">
+      <img
+        id="modalImg"
+        src="img/ff_integration_architecture.jpg"
+        alt="My own architecture plan for an integration gateway implementation."
+        style="max-width: 80vw"
+      />
+      <div id="modalID" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgID" />
+        <div id="caption"></div>
+      </div>
+    </div>
+    <p class="caption-row">Picture: My own architecture plan for an integration gateway implementation.</p>
+    <p align="justify" class="article-p">
+      This breakdown was highly necessary step for architecting a system this complex. Things such as sequentially numbered singular components and JSON data formats for every piece of data flowing throughout. The whiteboard employs both decomposition and algorithm aspects of the four-part breakdown presented in the lecture material (which also included abstraction and pattern recognition).
+    </p>
+    <p align="justify" class="article-p">
+      Each numbered step in that whiteboard indicated a function, an algorithm, which can all be separately illustrated in flowcharts. As developers become more experienced, they would rarely ever go that far in terms of decomposition as it adds a lot more overhead and time for nearly no benefit (a point of diminishing returns). The flowchart structure would’ve already been familiar from prior experience.
+    </p>
+    <p align="justify" class="article-p">
+      The JSON formats included around some steps show the expected data structure that is supposed to be handled throughout. Throughout testing and updates, the structures have changed after observing certain undesirable behaviors exhibited by the system through unit tests. And as such, analyzing what part of the data structure had an issue and investigating the pattern at which the faults were happening, employs a prominent part of Computational Thinking, namely pattern recognition.
+    </p>
+    <!-- Refer to that modal code for more info :) -->
+    <script src="js/modalHandler.js"></script>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <p>
+          © 2022 <a href="https://selman.io/">selman.io</a> All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</html>
