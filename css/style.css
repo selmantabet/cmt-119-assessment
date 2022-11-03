@@ -45,6 +45,7 @@ section {
     padding-bottom: 1vw;
     justify-content: space-around;
 }
+
 .caption-row {
     width: 80%;
     display: flex;
@@ -56,13 +57,6 @@ section {
 }
 .section h1 {
     margin: 0;
-}
-
-.column-in-row {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    background-color: gray;
 }
 
 .vid-container {
@@ -103,6 +97,18 @@ section .container {
 
 .article-link {
     text-decoration: none;
+}
+
+.citation-button {
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(81, 0, 255);
+}
+
+
+.citation-button:hover {
+    color: red;
+    transition: 0.3s; 
 }
 
 a.button {

@@ -19,7 +19,7 @@ img.onclick = function () {
 };
 
 // Get the span element that closes the modal
-let span = document.getElementsByClassName("close")[0]; //Class type access, just to show how.
+let span = document.getElementsByClassName("close")[0]; // Class type access, just to show how.
 
 // Switch state of modal to none when user clicks on (x)
 span.onclick = function () {
